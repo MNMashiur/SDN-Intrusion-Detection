@@ -109,3 +109,38 @@ The following models were implemented and evaluated:
 ---
 
 ## Project Structure
+```text
+├── Final_Project.ipynb
+├── README.md
+├── dataset/
+│   ├── Normal_data.csv
+│   ├── OVS.csv
+│   └── metasploitable-2.csv
+└── results/
+    ├── confusion_matrices/
+    └── roc_curves/
+```
+## How to Run
+
+Clone the repository  
+```bash
+git clone https://github.com/your-username/sdn-intrusion-detection.git
+```
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+## Open and run the notebook
+
+````bash
+jupyter notebook Final_Project.ipynb
+````
+## Limitations
+- Evaluation performed in an offline environment
+
+- Limited to supervised machine learning models
+
+- Single dataset used (InSDN)
+
+- Real-time SDN controller deployment not implemented
